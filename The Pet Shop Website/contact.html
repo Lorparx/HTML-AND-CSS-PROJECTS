@@ -4,10 +4,11 @@
         <title>Contact Us!</title>
             <meta charset="UTF-8">
             <meta name="Contact" content="Contact Us!">
+            <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT </a></li>
@@ -16,21 +17,21 @@
 <!--HEADER-->
 <header>
     <div>
-         <h1>Contact Us!</h1>
+         <h1 class="animate-text">Contact Us!</h1>
     </div>
 </header>
 <!--BLOCKQUOTE-->
 <!--FORM-->
 <section>
     <div>
-        <h3>Please provide your contact information and
+        <h3 id="contact-h3">Please provide your contact information and
             a breif message of your inquiry
         </h3>
     </div>
         <form>
             <input type="text" placeholder="First Name">
             <input type="text" placeholder="Last Name"><br>
-            <input type="email" placeholder="Email"><br>
+            <input type="email" placeholder="Email">
             <input type="tel" placeholder="Phone Number"><br>
             <input type="checkbox" id="newsletter">
             <label for="newsletter">Would you like to receive our monthly newsletter?</label><br>
@@ -54,5 +55,10 @@
             </td>
         </tr>
     </table>
+</footer>
+ <div id="favicon">
+    <img src="images/favicon-32x32.png" alt="favicon" align="center">
+ </div>
+
     </body>
 </html>

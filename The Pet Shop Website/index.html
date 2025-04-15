@@ -1,96 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>The Pet Shop</title>
-            <meta charset="UTF-8">
-            <meta name="Pet Shop" content="The Pet Shop!">
-    </head>
-    <body>
-        <!--NAVBAR-->
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="contact.html">CONTACT </a></li>
-            </ul>
-            <ul>
-                <li><a href="#cat">Cats and Kittens</a></li>
-                <li><a href="#dog">Dogs and Puppies</a></li>
-                <li><a href="#rabbit">Rabbits</a></li>
-                <li><a href="#guinea">Guinea Pigs</a></li>
-                <li><a href="#fish">Fish</a></li>
-                <li><a href="#reptile">Reptiles</a></li>
-                <li><a href="#video">Videos</a></li>
-            </ul>
-        </nav>
-        <!--HEADER-->
-        <header>
-            <div>
-                 <h1>Welcome to The Pet Shop!</h1>
-            </div>
-        </header>
-        <!--BLOCKQUOTE-->
-        <blockquote cite="https://www.azquotes.com/author/6618-James_Herriot#google_vignette">"If having a soul means being able to feel love and loyalty and gratitude, then animals are better off than a lot of humans."  James Herriot</blockquote>
 
-        <!---PET IMAGES-->
-        <section>
+<head>
+    <title>The Pet Shop</title>
+    <meta charset="UTF-8">
+    <meta name="Pet Shop" content="The Pet Shop!">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <ul id="nav-border">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+        </ul>
+        <ul>
+            <li><a href="#cat">Cats and Kittens</a></li>
+            <li><a href="#dog">Dogs and Puppies</a></li>
+            <li><a href="#rabbit">Rabbits</a></li>
+            <li><a href="#guinea">Guinea Pigs</a></li>
+            <li><a href="#fish">Fish</a></li>
+            <li><a href="#reptile">Reptiles</a></li>
+            <li><a href="#video">Videos</a></li>
+        </ul>
+    </nav>
+    <!--HEADER-->
+    <header>
+        <div>
+            <h1 class="animate-text">Welcome to The Pet Shop!</h1>
+        </div>
+    </header>
+    <!--BLOCKQUOTE-->
+    <blockquote cite="https://www.azquotes.com/author/6618-James_Herriot#google_vignette">"If having a soul means being
+        able to feel love and loyalty and gratitude, then animals are better off than a lot of humans." James Herriot
+    </blockquote>
+
+    <!---PET IMAGES-->
+    <section>
+        <div class="container">
+            <h2>Choose a Pet!</h2>
             <div>
-                <h2>Choose a Pet!</h2>
-                <div>
-                    <!--CAT IMAGE-->
-                    <div id="cat">
-                        <h3>Cats & Kittens</h3>
-                        <img src="images/cat4.jpg" alt="picture of kittens">
+                <!--CAT IMAGE-->
+                <div id="cat" class="column">
+                    <div class="image-container">
+                    <h3>Cats & Kittens</h3>
+                    <img src="images/cat4.jpg" alt="picture of kittens">
+                    <div class="overlay"></div>
                     </div>
-                    <!--DOG IMAGE-->
-                    <div id="dog">
-                        <h3>Dogs & Puppies</h3>
-                        <img src="images/puppy2.jpg" alt="picture of puppies">
-                    </div>
-                    <!--RABBIT IMAGE-->
-                    <div id="rabbit">
-                        <h3>Rabbits</h3>
-                        <img src="images/bunny.jpg" alt="picture of rabbits">
-                    </div>
-                    <!--GUINEA PIG IMAGE-->
-                    <div id="guinea">
-                        <h3>Guinea Pigs</h3>
-                        <img src="images/guinea.jpg" alt="picture of guinea pigs">
-                    </div>
-                    <!--FISH IMAGE-->
-                    <div id="fish">
-                        <h3>Fish</h3>
-                        <img src="images/fish.jpg" alt="picture of fish">
-                    </div>
-                    <!--REPTILE IMAGE-->
-                    <div id="reptile">
-                        <h3>Reptiles</h3>
-                        <img src="images/lizard.jpg" alt="picture of reptiles">
-                    </div>
+                </div>
             </div>
-        </section>
-        <!--VIDEOS-->
-        <section>
-            <!--DOG VIDEO-->
-            <div id="video">
-                <h3>Videos</h3>
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!--DOG IMAGE-->
+            <div id="dog" class="column">
+                <div class="image-container">
+                    <h3>Dogs & Puppies</h3>
+                    <img src="images/puppy2.jpg" alt="picture of puppies">
+                    <div class="overlay"></div>
+                </div>
             </div>
-        </section>
-        <!--FOOTER-->
-        <footer>
-            <table>
-                <tr>
-                    <td>
-                        <p>The Pet Shop! &copy;</p>
-                    </td>
-                    <td>
-                        <p>123 Square Ave</p>
-                        <p>Portland, OR 97204</p>
-                    </td>
-                    <td>
-                        <p>503-243-3966</p>
-                    </td>
-                </tr>
-            </table>
-    </body>
+            <!--RABBIT IMAGE-->
+            <div id="rabbit" class="column">
+                <div class="image-container">
+                    <h3>Rabbits</h3>
+                    <img src="images/bunny.jpg" alt="picture of rabbits">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <!--GUINEA PIG IMAGE-->
+            <div id="guinea" class="column">
+                <div class="image-container">
+                    <h3>Guinea Pigs</h3>
+                    <img src="images/guinea.jpg" alt="picture of guinea pigs">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <!--FISH IMAGE-->
+            <div id="fish" class="column">
+                <div class="image-container">
+                    <h3>Fish</h3>
+                    <img src="images/fish.jpg" alt="picture of fish">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <!--REPTILE IMAGE-->
+            <div id="reptile" class="column">
+                <div class="image-container">
+                    <h3>Reptiles</h3>
+                    <img src="images/lizard.jpg" alt="picture of reptiles">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--VIDEOS-->
+    <section>
+        <!--DOG VIDEO-->
+        <div id="video" class="container">
+            <h3>Videos</h3>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/ng58pNPDDW4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <p>The Pet Shop! &copy;</p>
+                </td>
+                <td>
+                    <p>123 Square Ave</p>
+                    <p>Portland, OR 97204</p>
+                </td>
+                <td>
+                    <p>503-243-3966</p>
+                </td>
+            </tr>
+        </table>
+</body>
+
 </html>
