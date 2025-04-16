@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>  
+        <title>Creating Effects with CSS</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="drop">
+                    <a href="#">images</a>
+                    <div class="rollover-menu">
+                        <a href="#Image1">Image 1</a>
+                        <a href="#Image2">Image 2</a>
+                        <a href="#Image3">Image 3</a>
+                    </div>
+            </ul>
+        </nav>
+        <!--IMAGES-->
+        <section>
+            <!--IMAGE ONE-->
+            <div class="img-container" id="Image1">
+                <img src="images/pnwmt.jpg" alt="Mountains in the Pacific Northwest">
+                <div class="overlay"></div>
+            </div>
+            <!--IMAGE TWO-->
+            <div class="img-container" id="Image2">
+                <img src="images/trees.jpg" class="zoom" alt="Mountains in the Pacific Northwest">
+            </div>
+            <!--IMAGE THREE-->
+            <div class="img-container" id="Image3">
+                <div class="circle">
+                <img src="images/waterfall.jpg" alt="Waterfall in the Pacific Northwest">
+                </div>
+            </div>
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <div class="footer-text">
+            <p>The Tech Academy &copy;</p>
+            </div>
+        </footer>
+    </body>
+</html>
