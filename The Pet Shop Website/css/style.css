@@ -306,9 +306,6 @@ input[type="submit"]:hover{
 }
 
 #favicon{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
-    /*aligns the favicon with the text*/
+    width: 32px;
+    height: 32px;
 }
