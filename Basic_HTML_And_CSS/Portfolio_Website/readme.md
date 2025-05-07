@@ -1,0 +1,1 @@
+This is a sample website made with HTML and CSS vaguely styled as a portfolio for me.
