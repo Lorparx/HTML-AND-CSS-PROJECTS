@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     img.style.marginBottom = "20px";
     lightbox.appendChild(img);
 
-    // Navigation buttons
+    // Nav buttons
     const navContainer = document.createElement("div");
     navContainer.style.display = "flex";
     navContainer.style.justifyContent = "center";
