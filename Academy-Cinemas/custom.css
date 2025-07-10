@@ -53,7 +53,7 @@ html{
 }
 
 .nav-link:focus{
-    color: var(--acccent-text-color);
+    color: var(--accent-text-color);
     text-shadow: 0 0 3px rgba(255, 123, 0, 0.6)
 }
 
@@ -61,6 +61,17 @@ html{
     padding-left: 1.5rem;
 }
 
+/*SHRINK ON SCROLL NAVBAR*/
+.nav-shrink {
+    height: 80px;
+    transition: .5s ease;
+}
+
+/*Adds a transition to the movie drop down menu on shrink and scroll*/
+
+.navbar-collapse{
+transition: margin-top 0.5s ease;
+}
 /*dropdown*/
 
 .dropdown-menu{
@@ -75,9 +86,9 @@ html{
     font-family: var(--main-font-family);
     text-align: center;
     font-size: 30px;
-    padding-top: 15 px;
-    padding-bottom: 20 px;
-    border-bottom: 2px solid rbg(177, 77, 13);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(177, 77, 13);
 }
 
 .dropdown-item:hover, .dropdown-item:focus{
